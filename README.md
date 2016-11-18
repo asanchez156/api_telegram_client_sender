@@ -14,5 +14,6 @@ Recieve message and forward to python script how calls command-line telegram cli
 
 ##Protocol:
   Http request `./sendMessage.php` with JSON String -->  `{"user":"user_name","msg":"message_text"}`
-
+  
+   *the user_name has to exist in telegram client contact_list*
 
