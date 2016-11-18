@@ -34,7 +34,8 @@
 		}
 
         	$response=array("status" => $output, "msg" => $msg_output);
-        	echo json_encode($response);
-
+        	
 		//shell_exec("python ./send_message.py Andoni 'Sent'");
 	}
+
+	echo json_encode($response);
